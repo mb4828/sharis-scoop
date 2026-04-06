@@ -1,23 +1,24 @@
-# Mediumish - Jekyll Theme
+# Shari's Scoop
 
-[Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/template-mediumish-bootstrap-jekyll/) &nbsp; | &nbsp; [Buy me a coffee](https://www.wowthemes.net/donate/)
+A local Jekyll site based on the [Mediumish](https://jekyllthemes.io/theme/mediumish) theme.
 
-![mediumish](assets/images/mediumish-jekyll-template.png)
+## Run locally
 
+1. Install dependencies:
+   ```bash
+   bundle install
+   ```
 
-### Copyright
+1. Start the Jekyll server:
+   ```bash
+   bundle exec jekyll serve
+   ```
 
-Copyright (C) 2019 Sal, https://www.wowthemes.net
+1. Open your browser at:
+   ```
+   http://127.0.0.1:4000
+   ```
+### Notes
 
-**Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license. 
-
-<a href="https://www.wowthemes.net/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-### Contribute
-
-1. [Fork the repo](https://github.com/wowthemesnet/mediumish-theme-jekyll).
-2. Clone a copy of your fork on your local
-3. Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
-4. Make necessary changes, commit, push and open a pull request on GitHub.
-
-Thank you!
+- Always use `bundle exec` to run Jekyll with this repo's Gemfile.
+- If you use a Ruby version manager like `rbenv` or `asdf`, install a Ruby version compatible with Jekyll 4.x.
