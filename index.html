@@ -5,6 +5,8 @@ title: Home
 
 {% if page.url == "/" %}
 
+{% assign featured_posts = site.posts | where: "featured", true %}
+{% if featured_posts.size > 0 %}
 <!-- Featured
 ================================================== -->
 <section class="featured-posts">
@@ -13,18 +15,13 @@ title: Home
     </div>
     <div class="row">
 
-    {% for post in site.posts %}
-
-        {% if post.featured == true %}
-
-            {% include featuredbox.html %}
-
-        {% endif %}
-
+    {% for post in featured_posts %}
+        {% include featuredbox.html %}
     {% endfor %}
 
     </div>
 </section>
+{% endif %}
 
 {% endif %}
 
@@ -34,7 +31,7 @@ title: Home
 
     <div class="section-title">
 
-        <h2><span>All Stories</span></h2>
+        <h2><span>All Posts</span></h2>
 
     </div>
 

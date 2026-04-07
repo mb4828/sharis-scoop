@@ -1,8 +1,22 @@
+:root {
+    --link-color: #5B1865;
+    --background-color: #f6f2ff;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.card, .card-footer, .navbar {
+    background-color: var(--background-color) !important;
+}
+
 /* 
 Template Name: Mediumish 
 Copyright: Sal, WowThemes.net, https://www.wowthemes.net 
 License: https://www.wowthemes.net/freebies-license/ 
 */
+
 @media screen and (min-width:1500px) {
     html { font-size:18px; } /* Increase the font size on higher resolutions */
     .container {max-width:80%;}
@@ -12,12 +26,12 @@ License: https://www.wowthemes.net/freebies-license/
 }
 
 a {
-    color: #00ab6b;
+    color: var(--link-color);
     transition: all 0.2s;
 }
 
 a:hover {
-    color: #038252;
+    color: var(--link-color);
     text-decoration: none;
 }
 
@@ -31,7 +45,7 @@ pre {
     font-size: .9rem;
     white-space: pre;
     overflow: auto;
-    background: #fff;
+    background: var(--background-color);
     border-radius: 0px;
     line-height: 1.6;
     color: #333;
@@ -177,8 +191,8 @@ section.recent-posts {
 }
 
 .author-thumb {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-right: 13px;
     border-radius: 100%;
 }
@@ -188,8 +202,8 @@ section.recent-posts {
 }
 
 .post-top-meta .author-thumb {
-    width: 72px;
-    height: 72px;
+    width: 30px;
+    height: 30px;
 }
 
 .post-top-meta.authorpage .author-thumb {
@@ -203,6 +217,7 @@ section.recent-posts {
 }
 
 .post-top-meta .author-description {
+    display: block;
     margin-bottom: 5px;
     margin-top: 5px;
     font-size: 0.95rem;
@@ -275,7 +290,7 @@ span.post-read-more a:hover {
 .mediumnavigation .form-inline .btn:hover,
 .mediumnavigation .form-inline .btn:active {
     background: transparent;
-    color: green;
+    color: var(--link-color)
 }
 
 .mediumnavigation .navbar-brand {
@@ -305,7 +320,8 @@ span.post-read-more a:hover {
 }
 
 .mainheading h1.sitetitle {
-    font-family: Righteous;
+    font-family: Lora;
+    font-weight: 700;
 }
 
 .mainheading h1.posttitle {
@@ -322,7 +338,7 @@ span.post-read-more a:hover {
     margin-top: 50px;
     margin-bottom: 62px;
     position: relative;
-    background: #fff;
+    background: var(--background-color);
 }
 
 .link-dark {
@@ -332,7 +348,7 @@ span.post-read-more a:hover {
 .article-post {
     font-family: Merriweather;
     font-size: 1.1rem;
-    line-height: 1.84;
+    line-height: 2;
     color: rgba(0, 0, 0, .8);
 }
 
@@ -353,46 +369,12 @@ blockquote {
     margin-bottom: 1.5rem;
 }
 
-.share {
-    text-align: center;
-}
-
-.share p {
-    margin-bottom: 10px;
-    font-size: 0.95rem;
-}
-
-.share ul li {
-    display: inline-block;
-    margin-bottom: 9px;
-}
-
-.share ul {
-    padding-left: 0;
-    margin-left: 0;
-}
-
-.share ul li i.fa {
-    border: 1px solid #ddd;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 50%;
-}
-
 .svgIcon {
     vertical-align: middle;
 }
 
 .sticky-top-offset {
     top: 100px;
-}
-
-@media (min-width:1024px) {
-    .share ul li {
-        display: block;
-    }
 }
 
 @media (max-width:999px) {
@@ -472,12 +454,6 @@ blockquote {
     }
 }
 
-.share,
-.share a {
-    color: rgba(0, 0, 0, .44);
-    fill: rgba(0, 0, 0, .44);
-}
-
 .graybg {
     background-color: #fafafa;
     padding: 40px 0 46px;
@@ -526,7 +502,7 @@ ul.tags li a:hover {
 
 .btn.follow {
     border-color: #02B875;
-    color: #1C9963;
+    color: var(--link-color);
     padding: 3px 10px;
     text-align: center;
     border-radius: 999em;
@@ -535,8 +511,8 @@ ul.tags li a:hover {
 }
 
 .btn.subscribe {
-    background-color: #1C9963;
-    border-color: #1C9963;
+    background-color: var(--link-color);
+    border-color: var(--link-color);
     color: rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 1);
     border-radius: 30px;
@@ -556,7 +532,7 @@ ul.tags li a:hover {
     position: fixed;
     bottom: 0;
     left: 0;
-    background-color: #fff;
+    background-color: var(--background-color);
     width: 100%;
     padding: 14px 0;
     z-index: 1;
@@ -581,8 +557,8 @@ ul.tags li a:hover {
 }
 
 .alertbar input[type="submit"] {
-    background-color: #1C9963;
-    border: 1px solid #1C9963;
+    background-color: var(--link-color);
+    border: 1px solid var(--link-color);
     color: rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 1);
     font-size: 0.85rem;
@@ -710,15 +686,6 @@ h6 {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
 }
 
-.layout-page .article-post {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 1rem;
-}
-
-.layout-page .article-post p {
-    margin-bottom: 1rem;
-}
-
 img {
     max-width: 100%;
 }
@@ -838,12 +805,6 @@ iframe {
     }
 }
 
-@media (max-width: 768px) {
-    .share {
-        margin-top: 30px;
-    }
-}
-
 .card .img-fluid {
     width: 100%;
 }
@@ -898,4 +859,37 @@ iframe {
 .lazyimg[data-srcset] {
     opacity: 0;
     transition: opacity .25s;
+}
+
+/* Post layout max-width constraint */
+.post-template .col-md-12 {
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Share section styling */
+.share-section {
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    border-bottom: 1px solid rgba(0, 0, 0, .05) !important;
+    height: 40px;
+    margin-bottom: 16px;
+}
+
+.share-section .btn-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    color: rgba(0, 0, 0, .44);
+}
+
+.share-section .dropdown-item:hover, .share-section .dropdown-item:active,
+.share-section .btn-link:hover, .share-section .btn-link:active {
+    text-decoration: none !important;
+}
+
+.share-section button {
+    cursor: pointer !important;
 }
