@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Getting (And Losing) A Taste of COVID"
+author: Shari
+categories: [ Wellness ]
+image: assets/images/pexels-photo-5207332.jpg
+comments: false
+---
+"You can’t have COVID, Mom. Your drenching night sweat must have been a hot flash.” 
+
+Those were my daughter’s words, spoken simultaneously as my in-home antigen test instantly turned positive. COVID-19, after we thought we had dodged a bullet when my husband tested positive a week and a half before. COVID-19, restarting the captivity clock after we were right about to be freed from quarantine. And worst of all, COVID-19, in my body and in my house — two days before Thanksgiving.
+
+Like most people, contracting COVID had been something I proactively tried to avoid. Disinfectant wipes and a mask had become my trusty companions every time I left the house. In late September, I took a quantitative antibody test that showed a high level of protection, even four months after being fully vaccinated. As my husband suffered through a breakthrough case that mimicked the flu, my daughter and I locked him in a bedroom and did our best to stay away from the infection. On day 10, we declared premature victory, not knowing that one day later my nose would start to run a few hours before bedtime. It couldn’t be… or could it?
+
+The worst of my symptoms hit quickly: chills, a runny nose, and sinus pressure that required medication to get rid of the throbbing headache. Heading down to the kitchen in the middle of the night gave me my lightbulb moment that Thanksgiving was about to be canceled. As I took a sip of orange juice and a handful of cereal to wash down the pills, I realized that I couldn’t taste anything — the telltale sign that I had COVID.
+
+Eighteen hours later, my daughter’s symptoms began to appear. As per our usual, we tried to find the humor in what we were dealing with, joking that we could finally enjoy a bowl of canned soup because the high level of sodium was undetectable. Her senses of smell and taste would return quickly, but Thanksgiving was a tough day for me when I had no ability to take in any of the delicious scents in my house or to savor the turkey that looked so moist and juicy. We also had to settle for a FaceTime call with the family members who were supposed to be sharing our 15-pound turkey with us. It wasn’t ideal, but I felt grateful that technology allowed us to spend the holiday together in some form.
+
+My husband posted to the masses on social media about his diagnosis, but my reaction was just the opposite. After almost two years of dealing with this virus as a country, I had a clear sense of who I wanted to share my news with. Those who had clocked in hours talking to me on the phone late into the night and the many who kept me company by texting during the days when we couldn’t safely venture out. For the first time in my life, I felt like I had a defined circle of close friends who would check on me because we were bonded and they genuinely cared.
+
+I have written numerous articles about how important it is for me to help people. Reaching out has always come naturally to me, just as accepting help has not. Any time in the spotlight makes me uncomfortable, but under these circumstances, I had no choice but to engage with my friends and family who were consistently calling to see how we were. And, on those days when I felt particularly low, a friend delivering a meal, a thoughtful card, or a funny cartoon would come my way, and I would appreciate it so much I would get choked up by the authentic level of kindness. Having COVID gave me such an important gift in that it finally taught me how to receive. Who knew I could find an unexpected life lesson in the middle of a mild case of such a dreaded virus?
+
+The days moved in a slow-motion time warp until we were finally deemed safe to re-enter society. Twenty straight days of staying home definitely depleted my stamina, but overall, I walked into the outside world feeling very lucky. We had all recovered without the need to see a doctor, and we were still on civil terms after an overkill of constant togetherness. I also remained grateful for the good people in my life who at times were more worried about my health than I was. Even as my worst symptoms improved, they were still checking in on the most important part of my recovery — my ability to enjoy a good piece of chocolate. However, I am sad to report that as I share the unforeseen benefits of getting a taste of COVID, I am still waiting for a taste of just about anything else.

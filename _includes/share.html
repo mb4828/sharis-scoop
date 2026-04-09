@@ -1,34 +1,24 @@
-<div class="d-flex justify-content-between align-items-center share-section">
-    <div class="left-actions">
-        <button class="btn btn-link p-0 mr-3" title="Like">
-            <i class="far fa-thumbs-up"></i>
-        </button>
-        {% if page.comments != false %}
-        <a href="#disqus_thread" class="btn btn-link p-0" title="Comments">
-            <i class="far fa-comments"></i>
-        </a>
-        {% endif %}
-    </div>
+<div class="share-section">
     <div class="dropdown">
-        <button class="btn btn-link dropdown-toggle p-0" type="button" id="shareDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Share">
-            <i class="fas fa-arrow-up-right-from-square"></i>
+        <button class="btn btn-outline-secondary btn-sm dropdown-toggle rounded-pill" type="button" id="shareDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Share">
+            <i class="fas fa-arrow-up-right-from-square fa-fw"></i> Share
         </button>
-        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="shareDropdown">
+        <div class="dropdown-menu" aria-labelledby="shareDropdown">
             <button class="dropdown-item" onclick="copyLink()"><i class="fas fa-link fa-fw"></i> Copy link</button>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="https://bsky.app/intent/compose?text={{ page.title }}%20{{ page.url | absolute_url }}" target="_blank" onclick="window.open(this.href, 'bluesky-share', 'width=550,height=400');return false;">
+            <a class="dropdown-item" href="https://bsky.app/intent/compose?text={{ page.title }}%20{{ page.url | absolute_url }}" target="_blank" onclick="openSharePopup(this.href, 'bluesky-share', 550, 400);return false;">
                 <i class="fab fa-bluesky fa-fw"></i> Share on Bluesky
             </a>
-            <a class="dropdown-item" href="https://facebook.com/sharer.php?u={{ page.url | absolute_url }}" target="_blank" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+            <a class="dropdown-item" href="https://facebook.com/sharer.php?u={{ page.url | absolute_url }}" target="_blank" onclick="openSharePopup(this.href, 'facebook-share', 550, 435);return false;">
                 <i class="fab fa-facebook-f fa-fw"></i> Share on Facebook
             </a>
-            <a class="dropdown-item" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}" target="_blank" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=435');return false;">
+            <a class="dropdown-item" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}" target="_blank" onclick="openSharePopup(this.href, 'linkedin-share', 550, 435);return false;">
                 <i class="fab fa-linkedin-in fa-fw"></i> Share on LinkedIn
             </a>
-            <a class="dropdown-item" href="https://www.threads.net/intent/post?text={{ page.title }}%20{{ page.url | absolute_url }}" target="_blank" onclick="window.open(this.href, 'threads-share', 'width=550,height=400');return false;">
+            <a class="dropdown-item" href="https://www.threads.net/intent/post?text={{ page.title }}%20{{ page.url | absolute_url }}" target="_blank" onclick="openSharePopup(this.href, 'threads-share', 550, 400);return false;">
                 <i class="fab fa-threads fa-fw"></i> Share on Threads
             </a>
-            <a class="dropdown-item" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" target="_blank" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <a class="dropdown-item" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" target="_blank" onclick="openSharePopup(this.href, 'twitter-share', 550, 235);return false;">
                 <i class="fab fa-x-twitter fa-fw"></i> Share on X
             </a>
         </div>
@@ -40,5 +30,12 @@ function copyLink() {
     navigator.clipboard.writeText(window.location.href).then(function() {
         // Optionally show a toast or something, but for now, silent
     });
+}
+
+function openSharePopup(url, name, width, height) {
+    var left = (window.screen.width / 2) - (width / 2);
+    var top = (window.screen.height / 2) - (height / 2);
+    window.open(url, name, 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=' + width + ',height=' + height + ',top=' + top + ',left=' + left);
+    return false;
 }
 </script>

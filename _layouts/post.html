@@ -20,18 +20,20 @@ post_class: post-template
                 <h1 class="posttitle">{{ page.title }}</h1>
 
                 <!-- Author Info & Date -->
-                {% if page.author %}
-                <div class="d-flex align-items-center mb-3">
-                    <a href="{{ '/about' | relative_url }}">
-                        <img class="author-thumb rounded-circle" src="{{ author.avatar | relative_url }}" alt="{{ author.display_name }}" width="30" height="30">
-                    </a>
-                    <span class="mr-2"><a class="link-dark" href="{{ '/about' | relative_url }}">{{ author.display_name }}</a></span>
-                    <span class="text-muted">• {{ page.date | date: "%b %-d, %Y" }}</span>
-                </div>
-                {% endif %}
+                <div class="d-flex flex-row align-items-center justify-content-between mb-3">
+                    {% if page.author %}
+                    <div class="d-flex align-items-center flex-grow-1">
+                        <a href="{{ '/about' | relative_url }}">
+                            <img class="author-thumb rounded-circle" src="{{ author.avatar | relative_url }}" alt="{{ author.display_name }}" width="30" height="30">
+                        </a>
+                        <span class="mr-2"><a class="link-dark" href="{{ '/about' | relative_url }}">{{ author.display_name }}</a></span>
+                        <span class="text-muted">• {{ page.date | date: "%b %-d, %Y" }}</span>
+                    </div>
+                    {% endif %}
 
-                <!-- Post Share -->
-                {% include share.html %}
+                    <!-- Post Share -->
+                    {% include share.html %}
+                </div>
 
             </div>
 
@@ -77,15 +79,20 @@ post_class: post-template
             {% endif %}
 
             <!-- Post Categories -->
-            <div class="after-post-cats">
-                <ul class="tags mb-4">
-                    {% assign sortedCategories = page.categories | sort %}
-                    {% for category in sortedCategories %}
-                    <li>
-                        <a class="smoothscroll" href="{{ '/categories#' | append: category | replace: ' ', '-' | relative_url }}">{{ category }}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
+            <div class="d-flex flex-row align-items-center justify-content-between mb-3">
+                <div class="after-post-cats">
+                    <ul class="tags mb-0 flex-grow-1">
+                        {% assign sortedCategories = page.categories | sort %}
+                        {% for category in sortedCategories %}
+                        <li>
+                            <a class="smoothscroll" href="{{ '/categories#' | append: category | replace: ' ', '-' | relative_url }}">{{ category }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                <!-- Post Share -->
+                {% include share.html %}
             </div>
             <!-- End Categories -->
 
@@ -101,9 +108,6 @@ post_class: post-template
                 </ul>
             </div>
             <!-- End Tags -->
-
-            <!-- Post Share -->
-            {% include share.html %}
 
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
