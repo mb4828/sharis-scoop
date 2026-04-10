@@ -1,6 +1,6 @@
 # Shari's Scoop
 
-A local Jekyll site based on the [Mediumish](https://jekyllthemes.io/theme/mediumish) theme.
+A static Jekyll site based on the [Mediumish](https://jekyllthemes.io/theme/mediumish) theme.
 
 ## Run locally
 
@@ -18,7 +18,3 @@ A local Jekyll site based on the [Mediumish](https://jekyllthemes.io/theme/mediu
    ```
    http://127.0.0.1:4000
    ```
-### Notes
-
-- Always use `bundle exec` to run Jekyll with this repo's Gemfile.
-- If you use a Ruby version manager like `rbenv` or `asdf`, install a Ruby version compatible with Jekyll 4.x.

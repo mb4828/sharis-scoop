@@ -11,7 +11,13 @@
 {% seo %}
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&family=Lora:wght@400;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Righteous&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://use.fontawesome.com" crossorigin>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
+
 <link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
 
 <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
@@ -33,13 +39,7 @@ ga('send', 'pageview');
 {% endif %}
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
-<body class="{{layout}}">
-	<!-- defer loading of font and font awesome -->
-	<noscript id="deferred-styles">
-		<link href="https://fonts.googleapis.com/css?family=Lora:400,700%7CRighteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
-	</noscript>
-
+<body id="top" class="{{layout}}">
 
 <!-- Begin Menu Navigation
 ================================================== -->
@@ -135,7 +135,7 @@ ga('send', 'pageview');
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 text-center">
-                Copyright © {{ site.time | date: "%Y" }} Shari Brauner. All rights reserved.
+                Copyright © {{ site.time | date: "%Y" }} <a href="{{ '/about' | relative_url }}">Shari Brauner</a>. All rights reserved.
             </div>
         </div>
     </div>

@@ -11,11 +11,11 @@ I do believe we are capable of helping those who mean the most to us, even if we
 
 The first step is to gauge the situation with the response. Are we dealing with a full-throttle emergency, or would the less-is-more-reaction be just as effective? Most people are surprised to know that a small gesture can feel massive to someone in need. We’ve all seen the meal chains that are put together for families grappling with illness or tragedy, but I’ve discovered that something personal can be even more meaningful. 
 
-### Covering the Basic Needs 
+## Covering the Basic Needs 
 
 Having simple, daily needs covered can hold so much value when we’re in a situation where the basics become difficult. I’ve learned to think about ways to offer helpful solutions with that reality in mind.  I watched a friend spend two exhausting years caring for her terminally ill mother, so shortly after the funeral, I gave her a gift certificate for a day of spa pampering. Another woman whose chronic illness left her housebound was thrilled when I picked her up one day and took her on a beautiful drive. The new mom up the block was grateful when I took care of her newborn and laundry for a few hours so she could take a much-needed nap. I must admit that the best help I received was having a friend come over to walk my dog after breaking my foot. Little things can feel much bigger when you’re in distress. A person can make a huge impact just by showing that they care, even in the smallest of ways.
 
-### Offering a Heavier Lift
+## Offering a Heavier Lift
 
 Of course, there are also extreme cases where a good friend might feel the need to cross a potentially uncomfortable boundary. In most situations, I feel it’s probably better to be asked for that kind of help. I once impulsively offered a full weekend of cooking, company, and support, and I was given the go-ahead to step in. The family was in crisis, but by the end of our time together, I felt they weren’t the only ones who received something positive out of our time together. My assistance made a difference in their stress relief, and seeing them in a better place when I left made me feel rewarded, too. 
 

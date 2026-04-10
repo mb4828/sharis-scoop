@@ -3,24 +3,24 @@
         <button class="btn btn-outline-secondary btn-sm dropdown-toggle rounded-pill" type="button" id="shareDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Share">
             <i class="fas fa-arrow-up-right-from-square fa-fw"></i> Share
         </button>
-        <div class="dropdown-menu" aria-labelledby="shareDropdown">
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="shareDropdown">
             <button class="dropdown-item" onclick="copyLink()"><i class="fas fa-link fa-fw"></i> Copy link</button>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="https://bsky.app/intent/compose?text={{ page.title }}%20{{ page.url | absolute_url }}" target="_blank" onclick="openSharePopup(this.href, 'bluesky-share', 550, 400);return false;">
+            <button class="dropdown-item" type="button" onclick="openSharePopup('bluesky', 'bluesky-share')">
                 <i class="fab fa-bluesky fa-fw"></i> Share on Bluesky
-            </a>
-            <a class="dropdown-item" href="https://facebook.com/sharer.php?u={{ page.url | absolute_url }}" target="_blank" onclick="openSharePopup(this.href, 'facebook-share', 550, 435);return false;">
+            </button>
+            <button class="dropdown-item" type="button" onclick="openSharePopup('facebook', 'facebook-share')">
                 <i class="fab fa-facebook-f fa-fw"></i> Share on Facebook
-            </a>
-            <a class="dropdown-item" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}" target="_blank" onclick="openSharePopup(this.href, 'linkedin-share', 550, 435);return false;">
+            </button>
+            <button class="dropdown-item" type="button" onclick="openSharePopup('linkedin', 'linkedin-share')">
                 <i class="fab fa-linkedin-in fa-fw"></i> Share on LinkedIn
-            </a>
-            <a class="dropdown-item" href="https://www.threads.net/intent/post?text={{ page.title }}%20{{ page.url | absolute_url }}" target="_blank" onclick="openSharePopup(this.href, 'threads-share', 550, 400);return false;">
+            </button>
+            <button class="dropdown-item" type="button" onclick="openSharePopup('threads', 'threads-share')">
                 <i class="fab fa-threads fa-fw"></i> Share on Threads
-            </a>
-            <a class="dropdown-item" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" target="_blank" onclick="openSharePopup(this.href, 'twitter-share', 550, 235);return false;">
+            </button>
+            <button class="dropdown-item" type="button" onclick="openSharePopup('x', 'twitter-share')">
                 <i class="fab fa-x-twitter fa-fw"></i> Share on X
-            </a>
+            </button>
         </div>
     </div>
 </div>
@@ -32,7 +32,29 @@ function copyLink() {
     });
 }
 
-function openSharePopup(url, name, width, height) {
+function buildShareUrl(platform) {
+    var pageUrl = encodeURIComponent(window.location.href);
+
+    switch (platform) {
+        case 'bluesky':
+            return 'https://bsky.app/intent/compose?text=' + pageUrl;
+        case 'facebook':
+            return 'https://www.facebook.com/sharer/sharer.php?u=' + pageUrl;
+        case 'linkedin':
+            return 'https://www.linkedin.com/sharing/share-offsite/?url=' + pageUrl;
+        case 'threads':
+            return 'https://www.threads.com/intent/post?text=' + pageUrl;
+        case 'x':
+            return 'https://twitter.com/intent/tweet?url=' + pageUrl;
+        default:
+            return window.location.href;
+    }
+}
+
+function openSharePopup(platform, name) {
+    var url = buildShareUrl(platform);
+    var width = 560;
+    var height = 480;
     var left = (window.screen.width / 2) - (width / 2);
     var top = (window.screen.height / 2) - (height / 2);
     window.open(url, name, 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=' + width + ',height=' + height + ',top=' + top + ',left=' + left);

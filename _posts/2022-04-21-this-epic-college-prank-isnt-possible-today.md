@@ -16,7 +16,7 @@ In true college fashion, we stayed up all night watching movies and enjoying a f
 
 Somehow, as the sun began to brighten the morning sky, a scheme simultaneously came to light. “Let’s change all of the clocks in the apartment and take Shari to the big parade in the center of Syracuse. We’ll make her think she got a few hours of sleep when she actually got about 10 minutes.” And so the prank began.
 
-### Even My Watch
+## Even My Watch
 
 After they moved all the clocks ahead three hours (including running out to the car to change the time on the dashboard — and somehow the watch on my wrist), the make-or-break move had arrived. From my perspective, I felt like I had just put my head on the pillow when they told me it was time to get up.
 
