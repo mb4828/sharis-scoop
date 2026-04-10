@@ -13,5 +13,5 @@ After 26 years as a stay-at-home mom, Shari is excited to announce that she has 
 
 <div class="text-center">
     <a href="mailto:shari@sharibrauner.com">
-    <i class="bi bi-envelope"></i> Contact Shari</a>
+    <i class="bi bi-envelope mr-1"></i> Contact Shari</a>
 </div>
