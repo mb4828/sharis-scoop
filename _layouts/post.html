@@ -26,9 +26,8 @@ post_class: post-template
                         <a href="{{ '/about' | relative_url }}">
                             <img class="author-thumb rounded-circle" src="{{ author.avatar | relative_url }}" alt="{{ author.display_name }}" width="30" height="30">
                         </a>
-                        <span class="mr-2"><a class="link-dark" href="{{ '/about' | relative_url }}">{{ author.display_name }}</a></span>
-                        <span class="text-muted mr-2">·</span>
-                        <span class="text-muted">{{ page.date | date: "%b %-d, %Y" }}</span>
+                        <a class="link-dark" href="{{ '/about' | relative_url }}">{{ author.display_name }}</a>
+                        <span class="text-muted"><i class="bi bi-dot"></i>{{ page.date | date: "%b %-d, %Y" }}</span>
                     </div>
                     {% endif %}
 

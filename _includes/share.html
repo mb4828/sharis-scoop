@@ -1,25 +1,27 @@
 <div class="share-section">
     <div class="dropdown">
-        <button class="btn btn-outline-secondary btn-sm dropdown-toggle rounded-pill" type="button" id="shareDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Share">
-            <i class="fas fa-arrow-up-right-from-square fa-fw"></i> Share
+        <button class="btn btn-outline-secondary border-0 rounded-pill" type="button" id="shareDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Share">
+            <i class="bi bi-box-arrow-up"></i>
         </button>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="shareDropdown">
-            <button class="dropdown-item" onclick="copyLink()"><i class="fas fa-link fa-fw"></i> Copy link</button>
+            <button class="dropdown-item" onclick="copyLink()">
+                <i class="bi bi-link-45deg"></i> Copy link
+            </button>
             <div class="dropdown-divider"></div>
             <button class="dropdown-item" type="button" onclick="openSharePopup('bluesky', 'bluesky-share')">
-                <i class="fab fa-bluesky fa-fw"></i> Share on Bluesky
+                <i class="bi bi-bluesky mr-1"></i> Share on Bluesky
             </button>
             <button class="dropdown-item" type="button" onclick="openSharePopup('facebook', 'facebook-share')">
-                <i class="fab fa-facebook-f fa-fw"></i> Share on Facebook
+                <i class="bi bi-facebook mr-1"></i> Share on Facebook
             </button>
             <button class="dropdown-item" type="button" onclick="openSharePopup('linkedin', 'linkedin-share')">
-                <i class="fab fa-linkedin-in fa-fw"></i> Share on LinkedIn
+                <i class="bi bi-linkedin mr-1"></i> Share on LinkedIn
             </button>
             <button class="dropdown-item" type="button" onclick="openSharePopup('threads', 'threads-share')">
-                <i class="fab fa-threads fa-fw"></i> Share on Threads
+                <i class="bi bi-threads mr-1"></i> Share on Threads
             </button>
             <button class="dropdown-item" type="button" onclick="openSharePopup('x', 'twitter-share')">
-                <i class="fab fa-x-twitter fa-fw"></i> Share on X
+                <i class="bi bi-twitter-x mr-1"></i> Share on X
             </button>
         </div>
     </div>
