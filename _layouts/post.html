@@ -93,7 +93,7 @@ post_class: post-template
                         {% assign sortedCategories = page.categories | sort %}
                         {% for category in sortedCategories %}
                         <li>
-                            <a class="smoothscroll" href="{{ '/category/' | append: category | replace: ' ', '-' | relative_url }}">{{ category }}</a>
+                            <a class="smoothscroll" href="{{ '/category/' | append: category | downcase | replace: ' ', '-' | relative_url }}">{{ category }}</a>
                         </li>
                         {% endfor %}
                     </ul>
@@ -110,7 +110,7 @@ post_class: post-template
                     {% assign sortedTags = page.tags | sort %}
                     {% for tag in sortedTags %}
                     <li>
-                        <a class="smoothscroll" href="{{ '/tags#' | append: tag | replace: ' ', '-' | relative_url }}">#{{ tag }}</a>
+                        <a class="smoothscroll" href="{{ '/tags#' | append: tag | downcase | replace: ' ', '-' | relative_url }}">#{{ tag }}</a>
                     </li>
                     {% endfor %}
                 </ul>
