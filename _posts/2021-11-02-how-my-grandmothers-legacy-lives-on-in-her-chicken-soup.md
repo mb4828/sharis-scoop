@@ -4,6 +4,7 @@ title: "How My Grandmother’s Legacy Lives On In Her Chicken Soup"
 author: Shari
 categories: [ Relationships ]
 image: assets/images/img_1121.jpg
+image_caption: Photo by [Henrique Félix](https://unsplash.com/@henriquefelix) on [Unsplash](https://unsplash.com/?utm_source=your_app_name&utm_medium=referral)
 comments: false
 ---
 August 13, 2005. The night of my 39th birthday. Instead of a happy celebration, that day became consumed with fear that my birthday would forever be known as the anniversary of my grandmother’s death. At 88 she had been in failing health, with many a scare that her last breath was fast approaching. On that Saturday night, I could hear the collision course in my head. My beloved grandmother was going to die on my birthday. 
@@ -23,5 +24,3 @@ Mama’s chicken soup became much more than what some people refer to as Jewish 
 Mama’s soup also made its way onto the pages of my son’s college application. He was asked to write about a family legacy and he didn’t have to think twice about what subject matter to use. He went into great detail about the fresh ingredients, the amazing taste, and the immeasurable value of a fresh pot of soup. I’m sure there were many reasons that he received an acceptance letter, but deep in my heart I know that Mama’s soup had something to do with it.
 
 Mama left behind a legacy that includes kindness, generosity, and overflowing amounts of unconditional love. As time naturally fades the recollections of our special moments together, I am so grateful that we have a way to consistently bring her back to life. Mortality is inevitable for all of us, but in our family, we have one way around the unavoidable ending: chicken soup never dies. 
-
-_[Photo by Henrique Félix on Unsplash](https://unsplash.com/@henriquefelix)_

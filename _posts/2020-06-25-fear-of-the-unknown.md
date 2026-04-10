@@ -3,6 +3,8 @@ layout: post
 title: "Fear of the Unknown"
 author: Shari
 categories: [ Wellness ]
+image: assets/images/pexels-puwadon-sang-ngern-2168173-9666409.jpg
+image_caption: Photo by Puwadon Sang-ngern from [Pexels](https://www.pexels.com/photo/woman-in-pink-sweater-holding-a-stethoscope-9666409/)
 comments: false
 ---
 Everyone lives with fear. When will the day come when we have to face one of our biggest fears? For me, the day came at age 47, when I went in for a routine mammogram and emerged with devastating news. _“We found a cyst cluster. You need to come back for a stereotactic biopsy.”_

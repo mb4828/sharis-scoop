@@ -3,6 +3,8 @@ layout: post
 title: "From ‘Fake Nurse’ to Hero"
 author: Shari
 categories: [ Inspiration ]
+image: assets/images/pexels-olly-3884133.jpg
+image_caption: Photo by Andrea Piacquadio from [Pexels](https://www.pexels.com/photo/serious-young-female-doctor-in-uniform-standing-in-modern-clinic-3884133/)
 comments: false
 ---
 "Are you sure she’s a real nurse?” It was hard not to notice that my neighbor Christy, the operating-room nurse who saw many of the worst traumas imaginable, often seemed challenged by the simplest every-day medical predicaments. Tylenol or Advil? Does this wound need stitches? Do you have a Band-Aid? We would soon discover that our neighbor, whom we’d jokingly dubbed “the fake nurse,” had a much more impressive area of expertise.

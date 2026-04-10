@@ -3,6 +3,8 @@ layout: post
 title: "A Special Mask"
 author: Shari
 categories: [ Inspiration ]
+image: assets/images/pexels-enginakyurt-4224675.jpg
+image_caption: Photo by Engin Akyurt from [Pexels](https://www.pexels.com/photo/woman-wearing-face-mask-looking-sideways-4224675/)
 comments: false
 ---
 Before we can fully move forward into a life outside of our pandemic-related boundaries, I feel like it’s going to be important for us to take stock in the people who have helped us get through the past year. In my personal experience, as my world grew smaller, I found myself getting closer to a handful of friends. I have one friend in particular who is someone I have been close to since we were 16 years old. Scott has fought anxiety issues for decades, so this past year was particularly difficult for him. We talked and saw each other more frequently than we had in a long time (either by phone or in a socially distanced setting). Even though there were times when he needed my support more than I needed his, I became extremely grateful to share some of the isolating quiet with him on a consistent basis.

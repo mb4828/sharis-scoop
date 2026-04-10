@@ -30,12 +30,10 @@
         <div class="card-footer">
             <div class="wrapfooter">
                 {% if post.author %}
-                <span class="meta-footer-thumb">
-                <img class="author-thumb" src="{{ site.baseurl }}/{{ author.avatar }}" alt="{{ author.display_name }}">
-                </span>
-                <span class="author-meta">
-                <span class="post-name"><a href="{{ author.web | relative_url }}">{{ author.display_name }}</a></span><br/>
+                <img class="author-thumb-sm mr-2" src="{{ site.baseurl }}/{{ author.avatar }}" alt="{{ author.display_name }}">
+                <span class="post-name mr-1"><a href="{{ author.web | relative_url }}">{{ author.display_name }}</a></span>
                 {% endif %}
+                <span class="text-muted mr-1">·</span>
                 <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
                 </span>
                 <div class="clearfix"></div>

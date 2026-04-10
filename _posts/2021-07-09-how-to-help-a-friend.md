@@ -3,6 +3,8 @@ layout: post
 title: "How to Help a Friend"
 author: Shari
 categories: [ Relationships ]
+image: assets/images/pexels-leticia-vieira-17376742-27254929.jpg
+image_caption: Photo by Leticia Vieira from [Pexels](https://www.pexels.com/photo/two-people-holding-hands-walking-down-a-cobblestone-street-27254929/)
 comments: false
 ---
 Throughout my teenage years, I started to notice something new and different emerging within my closest friendships. I seemed to be spending a lot of time engaging with friends who were coming to me for some kind of help. Whether they needed me for a rescue mission, as a partner in crime, or simply for a listening ear, I noticed a new purpose developing in my young life. I even contemplated choosing psychology as a major in college until I realized that emotionally engaging in deeply personal issues with others might feel like too much in addition to my own. So instead, I chose the unofficial role of the friendly neighborhood support system, choosing quality of life over a paycheck.

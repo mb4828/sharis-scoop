@@ -3,6 +3,8 @@ layout: post
 title: "Empty Nest: Party of Two"
 author: Shari
 categories: [ Relationships ]
+image: assets/images/pexels-kendal-4733852.jpg
+image_caption: Photo by Suleyman Seykan from [Pexels](https://www.pexels.com/photo/close-up-photo-of-a-wooden-bird-house-4733852/)
 comments: false
 ---
 Empty nest. Two words have never terrified me more in my life. In my alternate reality, it wasn’t something I ever needed to worry about. I had three kids who consistently stuck to me like glue. Playdates were usually at my house, sleepovers were incredibly rare, and the suggestion of overnight camp was met with horror. Even when my older son went off to college, my daughter brought home a best friend who needed a family, so we basically took him in. I became convinced that our family model would work exactly that way: Kids would shuffle in and out but someone would always be home.

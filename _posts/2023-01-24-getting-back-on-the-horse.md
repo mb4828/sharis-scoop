@@ -4,6 +4,7 @@ title:  "Getting Back on the Horse"
 author: Shari
 categories: [ Parenting ]
 image: assets/images/pexels-photo-1125774.jpeg
+image_caption: Photo by Johannes Plenio from [Pexels](https://www.pexels.com/photo/silhouette-of-person-riding-a-horse-1125774/)
 comments: false
 ---
 Truth be told, I did not ride a horse for the first time until I was fifty-three (if the feeble Barney even counts as a horse). All worst-case scenarios scared me too much. How embarrassed would I be if I couldn’t keep the horse on its designated trail? What if the horse got spooked and threw me off? Would I get the independent-minded horse who was in the mood for a joy ride? With so many possible things that could go wrong, I avoided the experience all together.

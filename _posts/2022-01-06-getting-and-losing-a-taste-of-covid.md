@@ -4,6 +4,7 @@ title: "Getting (And Losing) A Taste of COVID"
 author: Shari
 categories: [ Wellness ]
 image: assets/images/pexels-photo-5207332.jpg
+image_caption: Photo by www.kaboompics.com from [Pexels](https://www.pexels.com/photo/a-woman-taking-her-temperature-with-a-thermometer-5207332/)
 comments: false
 ---
 "You can’t have COVID, Mom. Your drenching night sweat must have been a hot flash.” 

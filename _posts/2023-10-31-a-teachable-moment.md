@@ -4,6 +4,7 @@ title:  "A Teachable Moment"
 author: Shari
 categories: [ Inspiration ]
 image: assets/images/pexels-photo-4033852.jpeg
+image_caption: Photo by cottonbro studio from [Pexels](https://www.pexels.com/photo/close-up-of-the-flag-of-israel-4033852/)
 comments: false
 ---
 I’ve been having trouble writing lately. My spidey senses warned me that October was going to be a brutal month, but my inability started long before the world as I knew it blew up. After a challenging year, I had lost my sense of self. The words that I connected to were no longer flowing freely. I became determined to find a way to recapture what I had always considered my gift, expecting that a glimmer of light would eventually lift my creative darkness. Instead, I was shocked to find a spark of evil igniting my breakthrough.

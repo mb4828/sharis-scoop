@@ -4,6 +4,7 @@ title: "Finding – And Sharing – My Sixth Sense"
 author: Shari
 categories: [ Inspiration ]
 image: assets/images/pexels-photo-169789.jpeg
+image_caption: Photo by InstaWalli from [Pexels](https://www.pexels.com/photo/timelapse-photography-of-stars-at-night-169789/)
 comments: false
 ---
 **Intuition:** When you don’t know how you know… but you know you know… and you know you knew, and that’s all you needed to know.

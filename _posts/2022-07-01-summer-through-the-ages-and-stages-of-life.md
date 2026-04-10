@@ -4,6 +4,7 @@ title: "Summer Through the Ages and Stages of Life"
 author: Shari
 categories: [ Inspiration ]
 image: assets/images/ethan-robertson-syx3uchzjlo-unsplash.jpg
+image_caption: Photo by [Ethan Robertson](https://unsplash.com/@ethanrobertson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=your_app_name&utm_medium=referral)
 comments: false
 ---
 The mere thought of summer creates a feeling and imagery that stands alone. While each season can be linked to specific weather and activities, I feel the anticipation of summer is a one-of-kind annual experience. Everyone can find something to enjoy in the summer — the benefits of daylight savings time, the freedom of shorts and t-shirts, and the opportunity to socialize and have fun outdoors. We often look forward to these delights, even during other seasons. But as I’ve grown older, I have also noticed that summer’s joys can begin to change as you pass through the decades.
@@ -23,5 +24,3 @@ As a woman gets older, things inevitably change. The daily parenting challenges 
 ## You’ll Never Be Able To Stop Time
 
 Life moves along quickly, just like the summer. That’s why it upsets me when I hear people declare that summer is basically over after July Fourth. In my world, that’s when summer is just getting started. Five decades in, I still try to take July and August one day at a time to find joy and make new memories. Appreciating every summer day will never change for me, no matter how many summers go by.
-
-_[Photo by Ethan Robertson on Unsplash](https://unsplash.com/@ethanrobertson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_

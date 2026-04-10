@@ -3,6 +3,8 @@ layout: post
 title: "Strengthening Kindness Through Mourning"
 author: Shari
 categories: [ Relationships ]
+image: assets/images/pexels-javidhashimov-35914289.jpg
+image_caption: Photo by Javid Hashimov from [Pexels](https://www.pexels.com/photo/mourners-holding-red-roses-at-memorial-service-35914289/)
 comments: false
 ---
 Sometimes it takes the worst tragedies imaginable to shake people outside of themselves. Our world can seem so divided until something happens to flip an ingrained behavior or narrative on its head. We’ve all lived through 9/11 and the ups and downs of the coronavirus, but in my experience, one of the worst things someone can be forced to endure is the loss of a child. It’s a moment in time that can forever decimate life as you know it.

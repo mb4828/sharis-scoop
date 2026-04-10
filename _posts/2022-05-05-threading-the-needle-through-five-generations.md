@@ -4,6 +4,7 @@ title: "Threading The Needle Through Five Generations"
 author: Shari
 categories: [ Inspiration ]
 image: assets/images/shane-rounce-dnkonxqti3c-unsplash-e1660072142377.jpg
+image_caption: Photo by [Shane Rounce](https://unsplash.com/es/@shanerounce?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=your_app_name&utm_medium=referral)
 comments: false
 ---
 When I decided to sit down and write an article for Mother’s Day, I wanted to concentrate on the four amazing generations of women in my family. One of my greatest blessings was to have my grandmother Ruth in my life for thirty-eight years. She was there for my wedding and for the birth of all three of my children. And when my daughter was born, I never took a day for granted because I felt like we had been gifted something incredibly special over the nine years that we had left with her.
@@ -23,5 +24,3 @@ Dora’s great granddaughters have also continued this trend. At 55, I think I�
 And finally, not to be left out is the 5th generation of this family. My daughter is the oldest female and is currently pushing through a grueling master’s program on her way to becoming an occupational therapist. The rest of the girls are still young, but based on what we know, I’m sure that Alden, Lark, Zoey and Emily are all high spirited and strong-willed young women in progress. How could they not be?
 
 So without ever knowing Dora, I feel like my amateur genetic study has allowed us to get an idea of what she was like. Based on my deductions, I believe she was smart and funny, like her daughters, while also possessing the kind of resolve that has flowed through the generations she never had a chance to meet. With Mother’s Day on the calendar, it makes me feel especially good to acknowledge a legacy that feels more meaningful than any of us have stopped to realize. Five generations is something to be proud of, and since it all started with Dora, it makes me happy to be able to honor her and for the first time in my life, wish her a Happy Mother’s Day.
-
-_[Photo by Shane Rounce on Unsplash](https://unsplash.com/es/@shanerounce?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_

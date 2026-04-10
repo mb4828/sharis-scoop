@@ -3,6 +3,8 @@ layout: post
 title: "Coping with the Death of a Friend"
 author: Shari
 categories: [ Relationships ]
+image: assets/images/pexels-pavel-danilyuk-8057067.jpg
+image_caption: Photo by Pavel Danilyuk from [Pexels](https://www.pexels.com/photo/a-woman-sitting-on-the-couch-8057067/)
 comments: false
 ---
 I’ll never forget that dreary fall day. Gray faces mirrored the dark sky as the news made its way around our tight-knit neighborhood. One of my closest friends had breast cancer. How could that be? Robin was as devoted to her faith as she was to her three young girls. We had only begun to share the experience of raising our kids together. It was impossible to wrap my head around what was happening.

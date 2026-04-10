@@ -27,7 +27,8 @@ post_class: post-template
                             <img class="author-thumb rounded-circle" src="{{ author.avatar | relative_url }}" alt="{{ author.display_name }}" width="30" height="30">
                         </a>
                         <span class="mr-2"><a class="link-dark" href="{{ '/about' | relative_url }}">{{ author.display_name }}</a></span>
-                        <span class="text-muted">• {{ page.date | date: "%b %-d, %Y" }}</span>
+                        <span class="text-muted mr-2">·</span>
+                        <span class="text-muted">{{ page.date | date: "%b %-d, %Y" }}</span>
                     </div>
                     {% endif %}
 
@@ -45,11 +46,18 @@ post_class: post-template
 
             <!-- Post Featured Image -->
             {% if page.image %}
+            <figure class="figure featured-image">
 
-            {% if site.lazyimages == "enabled" %}
-            <img class="featured-image img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5BYII=" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | relative_url }}{% endif %}" alt="{{ page.title }}">
-            {% else %}
-            <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | relative_url }}{% endif %}" alt="{{ page.title }}">
+                {% if site.lazyimages == "enabled" %}
+                <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5BYII=" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | relative_url }}{% endif %}" alt="{{ page.title }}">
+                {% else %}
+                <img class="img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | relative_url }}{% endif %}" alt="{{ page.title }}">
+                
+                {% if page.image_caption %}
+                <figcaption class="figure-caption text-center mt-2">{{ page.image_caption | markdownify }}</figcaption>
+                {% endif %}
+
+            </figure>
             {% endif %}
 
             {% endif %}
@@ -80,7 +88,7 @@ post_class: post-template
 
             <!-- Post Categories -->
             <div class="d-flex flex-row align-items-center justify-content-between mb-3">
-                <div class="after-post-cats">
+                <div>
                     <ul class="tags mb-0 flex-grow-1">
                         {% assign sortedCategories = page.categories | sort %}
                         {% for category in sortedCategories %}
@@ -97,7 +105,7 @@ post_class: post-template
             <!-- End Categories -->
 
             <!-- Post Tags -->
-            <div class="after-post-tags">
+            <div>
                 <ul class="tags">
                     {% assign sortedTags = page.tags | sort %}
                     {% for tag in sortedTags %}
@@ -110,7 +118,7 @@ post_class: post-template
             <!-- End Tags -->
 
             <!-- Prev/Next -->
-            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            <div class="row page-navigation d-flex justify-content-between font-weight-bold">
             {% if page.previous.url %}
             <a class="prev d-block col-md-6" href="{{ page.previous.url | relative_url }}"> &laquo; {{page.previous.title}}</a>
             {% endif %}

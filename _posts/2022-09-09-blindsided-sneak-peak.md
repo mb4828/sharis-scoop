@@ -4,6 +4,7 @@ title:  "Blindsided Sneak Peak"
 author: Shari
 categories: [ Inspiration ]
 image: assets/images/pexels-photo-834897.jpeg
+image_caption: Photo by JESHOOTS.com from [Pexels](https://www.pexels.com/th-th/photo/834897/)
 comments: false
 ---
 Thank you for wanting to read an excerpt from my novel, Blindsided. Here’s what you need to know:

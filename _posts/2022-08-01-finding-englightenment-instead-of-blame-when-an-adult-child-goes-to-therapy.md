@@ -4,6 +4,7 @@ title:  "Finding Enlightenment Instead of Blame When an Adult Child Goes to Ther
 author: Shari
 categories: [ Parenting ]
 image: assets/images/kelly-sikkema-xx2wtblr3r8-unsplash.jpg
+image_caption: Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=your_app_name&utm_medium=referral)
 comments: false
 ---
 We all know the stereotype — starting therapy puts a person straight on the path toward blaming their mother. So, when my 20-somethings decided to explore their lives through a psychological microscope, I braced for the impact of mother wounds starting to come my way. Hindsight had gifted me with a dose of unpleasant self-awareness, meaning I had taken ownership for my helicopter mom moments, mama bear confrontations, and enabler missteps. I figured it was only a matter of time until my culpability caught up with me and then something unexpected happened. 
@@ -29,5 +30,3 @@ As someone who pleads guilty to always rooting for the fairy tale ending, it ups
 These are only two examples of the things I have learned through my children’s therapy experiences. The irony is that I have only been blamed once for the things I thought I did wrong. And when my son’s therapist called me an enabler, he defended me so fiercely that I thought her head would spin. I learned two things that day. Therapists are not always right and if my children don’t see my parenting choices causing harm to their lives, then no other opinion will ever matter.
 
 Years into this experience, I can say I’m happy my kids grew into young adults who choose to work on themselves. As they benefit and blossom, I have let go of waiting for the blame. I welcome their lessons and my own. Because what could be better than all of us being enlightened together?
-
-_[Photo by Kelly Sikkema on Unsplash](https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_

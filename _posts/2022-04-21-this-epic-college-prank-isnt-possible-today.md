@@ -4,6 +4,7 @@ title: "This Epic College Prank Isn’t Possible Today"
 author: Shari
 categories: [ Inspiration ]
 image: assets/images/mostafa-mahmoudi-qy_f1wqw6ho-unsplash.jpg
+image_caption: Photo by [mostafa mahmoudi](https://unsplash.com/@mostafa_mahmoudi24?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=your_app_name&utm_medium=referral)
 comments: false
 ---
 Once upon a time, we lived in a world without cellphones and instant gratification. Friendships were based on face-to-face encounters and bonding with people who knew how to have fun. That was definitely my experience back in my college days when I surrounded myself with pranksters — we made every day feel like April Fools’ Day. You never knew what we would all do to our friends (or to each other) next; a subscription to an inappropriate magazine addressed to the house next door or a half-pound of olive loaf mysteriously turning up in the refrigerator. Good, playful fun that defined the essence of youth and life in the 1980s.
@@ -33,5 +34,3 @@ I can only imagine what it felt like to be on the other side of this prank. Watc
 By 3 p.m., I think the boys were hit by some uncharacteristic remorse. We always pranked each other, but this time they could see that it had been mostly one-sided. So with some underlying chuckles, they shocked me with the news that it was actually noon. Plenty of time to nap was all I could think to myself. So instead of being mad, I was thrilled!
 
 Clearly, the advancement in technology would make this prank completely impossible in today’s world, which is what makes this story such a treasured memory. Going back in time can feel antiquated, but in this case, it feels comforting. We enjoyed simple fun without phones or social media to draw our attention away from each other. Even reliving an experience where I play the role of the fool brings back nothing but laughter.
-
-_[Photo by mostafa mahmoudi on Unsplash](https://unsplash.com/@mostafa_mahmoudi24?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_

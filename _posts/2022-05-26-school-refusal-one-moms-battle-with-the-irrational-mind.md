@@ -4,6 +4,7 @@ title: "School Refusal: One Mom’s Battle With The Irrational Mind"
 author: Shari
 categories: [ Parenting ]
 image: assets/images/priscilla-du-preez-nqtphr4pr60-unsplash.jpg
+image_caption: Photo by [Priscilla Du Preez](https://scoop.sharibrauner.com/2022/05/26/school-refusal-one-moms-battle-with-the-irrational-mind/#:~:text=Photo%20by-,Priscilla%20Du%20Preez,-on%20Unsplash) on [Unsplash](https://unsplash.com/?utm_source=your_app_name&utm_medium=referral)
 comments: false
 ---
 Everything I did with my first two kids never failed to deviate with my third — new play gyms, preschool teachers, and an overall sense of life in general. My first two kids were Type A, but my youngest child seemed to be Type Z. The two older kids went full steam ahead, while my youngest usually went quite unwillingly. I later found that this unwillingness was due to his anxiety, and that I would have to learn to be his advocate. 
@@ -35,5 +36,3 @@ We spent the next three years navigating the path to graduation with the help of
 ## The Bottom Line 
 
 When graduation day finally arrived, it almost felt like an out-of-body experience. It had taken five endless years plus two summers to get through high school. And along the way, he had gotten accepted to his first-choice college, which was a joyous relief. If I had been given the chance, I would have stood at the podium and thanked the numerous therapists, special mentors, and amazing human beings who supported and guided us through a challenge like no other. I often told my son that he had taken an off-ramp leading from the highway onto the back roads, but that the destination remained the same. A boy seemingly fated to follow a different route even before he was born had conquered debilitating anxiety and paved the way to what had seemed close to impossible — getting out of bed in the morning, feeling strong enough to face a new day.
-
-_[Photo by Priscilla Du Preez on Unsplash](https://scoop.sharibrauner.com/2022/05/26/school-refusal-one-moms-battle-with-the-irrational-mind/#:~:text=Photo%20by-,Priscilla%20Du%20Preez,-on%20Unsplash)_

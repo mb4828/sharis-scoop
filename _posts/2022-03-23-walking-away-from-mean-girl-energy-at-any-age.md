@@ -4,6 +4,7 @@ title: "Walking Away From Mean Girl Energy at Any Age"
 author: Shari
 categories: [ Relationships ]
 image: assets/images/ben-white-s1ihvbg5tbi-unsplash.jpg
+image_caption: Photo by [Ben White](https://unsplash.com/@benwhitephotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=your_app_name&utm_medium=referral)
 comments: false
 ---
 For as long as I live, I don’t think I’ll ever be able to wrap my head around the mentality of a mean girl. Having been a spectator to the many ways a person can be affected by this form of bullying, I have learned the hard way how even the smallest things can trigger repressed pain. Cruelty that can never be allayed by the words “I’m sorry.” Choices made without ever realizing how you’ve made another person feel. It breaks my heart to think about how prevalent this is in our world and how the widespread use of social media has made a bad thing worse.
@@ -29,5 +30,3 @@ Age can often bring wisdom, which was much appreciated when I woke up one day an
 ## The Bottom Line 
 
 Sadly, some mean girls are here to stay. Even if you are somehow spared in childhood and adolescence, one could be lurking around the turn of any decade. It might help to remember that a lot of this behavior stems from insecurity — theirs and yours. Time is supposed to be a helpful factor, but some will never break free from the desire to make themselves feel better by hurting the people around them. That’s why it’s so important to grow from the experiences and find empowerment on the flip side of the pain. Because when you get to the finish line of owning and controlling your own life, a mean girl will never be able to hurt you again.
-
-_[Photo by Ben White on Unsplash](https://unsplash.com/@benwhitephotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
