@@ -93,7 +93,7 @@ post_class: post-template
                         {% assign sortedCategories = page.categories | sort %}
                         {% for category in sortedCategories %}
                         <li>
-                            <a class="smoothscroll" href="{{ '/categories#' | append: category | replace: ' ', '-' | relative_url }}">{{ category }}</a>
+                            <a class="smoothscroll" href="{{ '/category/' | append: category | replace: ' ', '-' | relative_url }}">{{ category }}</a>
                         </li>
                         {% endfor %}
                     </ul>
@@ -127,7 +127,7 @@ post_class: post-template
             {% endif %}
             <div class="clearfix"></div>
             </div>
-            <!-- End Categories -->
+            <!-- End Prev/Next -->
 
         </div>
         <!-- End Post -->
