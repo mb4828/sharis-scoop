@@ -1,6 +1,6 @@
 <div class="share-section">
-    <div class="dropdown">
-        <button class="btn btn-outline-secondary border-0 rounded-pill" type="button" id="shareDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Share">
+    <div class="dropdown" data-toggle="tooltip" title="Share">
+        <button class="btn btn-link border-0 rounded-pill" type="button" id="shareDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="bi bi-box-arrow-up"></i>
         </button>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="shareDropdown">
@@ -27,10 +27,21 @@
     </div>
 </div>
 
+<div class="toast-container toast-container-top-center">
+    <div id="linkCopiedToast" class="toast bg-success text-white border-0" role="alert" aria-live="assertive" aria-atomic="true" data-delay="3000">
+        <div class="toast-body d-flex align-items-center justify-content-between">
+            <span>Link copied</span>
+            <button type="button" class="ml-3 close btn-close btn-close-white text-white" data-dismiss="toast" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+</div>
+
 <script>
 function copyLink() {
     navigator.clipboard.writeText(window.location.href).then(function() {
-        // Optionally show a toast or something, but for now, silent
+        $('#linkCopiedToast').toast('show');
     });
 }
 
