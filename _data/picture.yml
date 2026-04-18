@@ -2,7 +2,7 @@ presets:
   post-featured:
     markup: picture
     formats:
-      - original
+      - webp
     widths:
       - 400
       - 600
@@ -12,7 +12,7 @@ presets:
   postbox:
     markup: picture
     formats:
-      - original
+      - webp
     widths:
       - 300
       - 500
@@ -21,7 +21,7 @@ presets:
   avatar:
     markup: picture
     formats:
-      - original
+      - webp
     widths:
       - 30
       - 60
@@ -30,9 +30,17 @@ presets:
   avatar-sm:
     markup: picture
     formats:
-      - original
+      - webp
     widths:
       - 24
       - 48
     fallback_width: 24
+    crop: "1:1"
+  about-image:
+    markup: picture
+    formats:
+      - webp
+    widths:
+      - 300
+    fallback_width: 300
     crop: "1:1"
