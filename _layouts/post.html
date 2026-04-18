@@ -24,10 +24,10 @@ post_class: post-template
                     {% if page.author %}
                     <div class="d-flex align-items-center flex-grow-1">
                         <a href="{{ '/about' | relative_url }}">
-                            <img class="author-thumb rounded-circle" src="{{ author.avatar | relative_url }}" alt="{{ author.display_name }}" width="30" height="30">
+                            {% picture avatar "{{ author.avatar }}" --alt {{ author.display_name }} --img class="author-thumb rounded-circle" width="30" height="30" %}
                         </a>
                         <a class="link-dark" href="{{ '/about' | relative_url }}">{{ author.display_name }}</a>
-                        <span class="text-muted"><i class="bi bi-dot"></i>{{ page.date | date: "%b %-d, %Y" }}</span>
+                        <span class="text-secondary"><i class="bi bi-dot"></i>{{ page.date | date: "%b %-d, %Y" }}</span>
                     </div>
                     {% endif %}
 
@@ -47,23 +47,22 @@ post_class: post-template
             {% if page.image %}
             <figure class="figure featured-image">
 
-                {% if site.lazyimages == "enabled" %}
-                <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5BYII=" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | relative_url }}{% endif %}" alt="{{ page.title }}">
+                {% if page.image contains "://" %}
+                <img class="img-fluid" src="{{ page.image }}" alt="{{ page.title }}" fetchpriority="high">
                 {% else %}
-                <img class="img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | relative_url }}{% endif %}" alt="{{ page.title }}">
-                
+                {% picture post-featured "{{ page.image }}" --alt {{ page.title }} --img class="img-fluid" fetchpriority="high" %}
+                {% endif %}
+
                 {% if page.image_caption %}
-                <figcaption class="figure-caption text-center mt-2">{{ page.image_caption | markdownify }}</figcaption>
+                <figcaption class="figure-caption text-center text-secondary underline-links mt-2">{{ page.image_caption | markdownify }}</figcaption>
                 {% endif %}
 
             </figure>
             {% endif %}
-
-            {% endif %}
             <!-- End Featured Image -->
 
             <!-- Post Content -->
-            <div class="article-post">
+            <div class="article-post underline-links">
                 <!-- Toc if any -->
                 {% if page.toc %}
                     {% if page.beforetoc %}

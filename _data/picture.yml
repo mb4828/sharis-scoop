@@ -1,0 +1,38 @@
+presets:
+  post-featured:
+    markup: picture
+    formats:
+      - original
+    widths:
+      - 400
+      - 600
+      - 800
+      - 1000
+    fallback_width: 1000
+  postbox:
+    markup: picture
+    formats:
+      - original
+    widths:
+      - 300
+      - 500
+      - 700
+    fallback_width: 500
+  avatar:
+    markup: picture
+    formats:
+      - original
+    widths:
+      - 30
+      - 60
+    fallback_width: 30
+    crop: "1:1"
+  avatar-sm:
+    markup: picture
+    formats:
+      - original
+    widths:
+      - 24
+      - 48
+    fallback_width: 24
+    crop: "1:1"
